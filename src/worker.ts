@@ -15,6 +15,8 @@ export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		const url = new URL(request.url);
 		switch (url.pathname) {
+			case '/navigator':
+				return new Response(`Running in ${navigator.userAgent}!`);;
 			case '/message':
 				return new Response('Hello, World!');
 			case '/random':

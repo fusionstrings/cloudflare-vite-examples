@@ -1,25 +1,6 @@
 # Cloudflare Vite Examples
 
-<div align="center">
-  <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background -->
-    <rect width="200" height="150" fill="#f6f8fa"/>
-    
-    <!-- Cloudflare Orange Cloud -->
-    <path d="M50 80 Q40 70 50 60 Q60 55 70 60 Q80 50 90 60 Q100 55 110 60 Q120 70 110 80 Z" fill="#f38020"/>
-    
-    <!-- Vite Lightning -->
-    <path d="M130 45 L140 65 L135 65 L145 85 L125 65 L130 65 Z" fill="#646cff"/>
-    <path d="M132 47 L138 63 L135 63 L143 83 L127 63 L130 63 Z" fill="#41d1ff"/>
-    
-    <!-- Connection Lines -->
-    <line x1="90" y1="70" x2="130" y2="65" stroke="#e1e4e8" stroke-width="2" stroke-dasharray="5,5"/>
-    
-    <!-- Text -->
-    <text x="100" y="110" text-anchor="middle" fill="#24292f" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Cloudflare + Vite</text>
-    <text x="100" y="125" text-anchor="middle" fill="#656d76" font-family="Arial, sans-serif" font-size="10">Edge Computing</text>
-  </svg>
-</div>
+![GitHub Shot](public/github-shot.png)
 
 A modern full-stack application built with **Cloudflare Workers** and **Vite**, showcasing seamless edge computing with static asset serving and dynamic API endpoints.
 

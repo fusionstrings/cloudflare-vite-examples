@@ -7,7 +7,8 @@
 		"build": "vite build",
 		"preview": "npm run build && vite preview",
 		"deploy": "npm run build && wrangler deploy",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"machine-translate": "inlang machine translate --project project.inlang"
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "^1.9.4",
@@ -16,7 +17,9 @@
 		"typescript": "^5.8.3",
 		"vite": "^7.0.4",
 		"vitest": "~3.2.4",
-		"wrangler": "^4.24.3"
+		"wrangler": "^4.24.3",
+		"@inlang/paraglide-js": "2.2.0",
+		"@inlang/cli": "^3.0.0"
 	},
 	"type": "module"
 }

@@ -5,13 +5,14 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "cloudflare-vite-examples",
-	"main": "./src/worker.ts",
-	"compatibility_date": "2025-07-12",
+	"main": "./workers/worker-main/worker.tsx",
+	"compatibility_date": "2025-07-25",
 	"compatibility_flags": [
 		"global_fetch_strictly_public"
 	],
 	"assets": {
 		"binding": "ASSETS",
+		"run_worker_first": ["/"],
 	},
 	"observability": {
 		"enabled": true

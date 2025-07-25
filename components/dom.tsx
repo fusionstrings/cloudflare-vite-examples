@@ -1,5 +1,9 @@
+import register from 'preact-custom-element';
+import { Greeting } from './greeting';
+
 async function main() {
     console.log(`Running main function.`);
+    register(Greeting, 'x-greeting', ['name'], { shadow: false });
     fetch('/message')
         .then((resp) => resp.text())
         .then((text) => {

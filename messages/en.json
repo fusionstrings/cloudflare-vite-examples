@@ -1,4 +1,23 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "example_message": "Examples {emoji}"
+  "example_message": "Examples {emoji}",
+  "jojo_mountain_day": [
+    {
+      "declarations": [
+        "input platform",
+        "input userGender",
+        "input username"
+      ],
+      "selectors": [
+        "platform",
+        "userGender"
+      ],
+      "match": {
+        "platform=android, userGender=male": "{username} has to download the app on his phone from the Google Play Store.",
+        "platform=ios, userGender=female": "{username} has to download the app on her iPhone from the App Store.",
+        "platform=*, userGender=*": "The person has to download the app."
+      }
+    }
+  ],
+  "title": "Hello Home Page"
 }

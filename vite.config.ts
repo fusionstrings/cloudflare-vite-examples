@@ -20,7 +20,7 @@ export default defineConfig({
         ssrManifest: true,
         rollupOptions: {
             input: {
-                main: new URL("./index.html", import.meta.url).pathname,
+                dom: "./components/dom.tsx",
             },
         },
     }
